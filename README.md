@@ -74,6 +74,9 @@ In this home lab, I observed different networking activities and traffic using m
   
 ![image](https://github.com/user-attachments/assets/74c652bc-8e40-4ed2-b50b-9129651c2b5f)
 
+![image](https://github.com/user-attachments/assets/7f008296-aedb-4d4e-81e3-0c5c15812843)
+
+
    - Back in the Windows 10 VM, observe the ICMP traffic in Wireshark and the command-line ping activity.
    - Re-enable ICMP traffic for the Network Security Group your Ubuntu VM is using.
    - Back in the Windows 10 VM, observe the ICMP traffic in Wireshark and the command-line ping activity (it should resume).
