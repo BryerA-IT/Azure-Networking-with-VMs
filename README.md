@@ -25,18 +25,17 @@ In this home lab, I observed different networking activities and traffic using m
 2. Create a Windows 10 Virtual Machine (VM).
 3. While creating the VM, select the previously created Resource Group:  
  
-   ![image](https://github.com/user-attachments/assets/bcfe5971-0a91-47a8-8028-4e42e2efe1c9)
+   
 4. Allow the creation of a new Virtual Network (Vnet) and Subnet:  
   
-   ![image](https://github.com/user-attachments/assets/f88448be-4b33-4195-bb62-aa19d65a81f0)
+  
 5. Create a Linux (Ubuntu) VM:  
   
-   ![image](https://github.com/user-attachments/assets/6b128cfd-2ea6-4960-813c-93130d98e123)
+  
 6. While creating the VM, select the previously created Resource Group and Vnet:  
  
-   ![image](https://github.com/user-attachments/assets/130b8970-52d5-4a1b-a616-96aaaab416ee)  
-  
-   ![image](https://github.com/user-attachments/assets/be3d9782-84c7-4590-871f-dee49b55ffb7)
+   
+   
 7. Observe your Virtual Network within Network Watcher.
 
 <h3>Part 2: Observe ICMP Traffic</h3>
