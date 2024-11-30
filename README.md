@@ -50,28 +50,30 @@ In this home lab, I observed different networking activities and traffic using m
 <h3>Part 2: Observe ICMP Traffic</h3>
 1. Use Remote Desktop to connect to your Windows 10 Virtual Machine.
   
-   ![image](https://github.com/user-attachments/assets/9beedd20-fcb4-4fe6-9197-f66de1db5037)
+  ![image](https://github.com/user-attachments/assets/fe36038c-337f-4ff9-a410-9a62dcbe5094)
+
 2. Install Wireshark on the Windows 10 VM.
  
-   ![image](https://github.com/user-attachments/assets/76b18670-cb2d-4dfe-a955-3cf23ad2c764)
+![image](https://github.com/user-attachments/assets/8d815bbb-f070-4810-901b-5792d531b4c7)
+
 3. Open Wireshark and filter for ICMP traffic only.  
   
-   ![image](https://github.com/user-attachments/assets/f694f4d6-4c6a-4072-ac9d-3f4745f7c0d6)  
-  
-   ![image](https://github.com/user-attachments/assets/3295c8d5-cf75-42d3-bc92-337971734a38)
+![image](https://github.com/user-attachments/assets/1c21c157-d05f-4875-a63e-e65ef2b48f74)
+
 4. Retrieve the private IP address of the Ubuntu VM and attempt to ping it from within the Windows 10 VM.
    - Observe ping requests and replies within Wireshark.  
  
-   ![image](https://github.com/user-attachments/assets/04d699d2-65f8-4bad-8d69-075962fd372d)
-5. From the Windows 10 VM, open Command Line or PowerShell and attempt to ping a public website (such as www.google.com) and observe the traffic in Wireshark.  
+![image](https://github.com/user-attachments/assets/14535019-3bd2-438c-a930-a4b83b950e54)
  
-   ![image](https://github.com/user-attachments/assets/a75193f9-32c2-4a42-b0bb-a8018f1c5db5)
-6. Initiate a perpetual/non-stop ping from your Windows 10 VM to your Ubuntu VM.  
+   
+5. Initiate a perpetual/non-stop ping from your Windows 10 VM to your Ubuntu VM.  
 
-   ![image](https://github.com/user-attachments/assets/704346b0-8e9c-45d6-b3e6-aeb3858092b9)
+ ![image](https://github.com/user-attachments/assets/95c30475-ce66-4c4e-b3b8-6480fd88f129)
+
    - Open the Network Security Group (NSG) associated with your Ubuntu VM and disable incoming (inbound) ICMP traffic.  
   
-   ![image](https://github.com/user-attachments/assets/1eb91e3b-1aed-4d15-8402-d2f12f43dc17)
+![image](https://github.com/user-attachments/assets/74c652bc-8e40-4ed2-b50b-9129651c2b5f)
+
    - Back in the Windows 10 VM, observe the ICMP traffic in Wireshark and the command-line ping activity.
    - Re-enable ICMP traffic for the Network Security Group your Ubuntu VM is using.
    - Back in the Windows 10 VM, observe the ICMP traffic in Wireshark and the command-line ping activity (it should resume).
