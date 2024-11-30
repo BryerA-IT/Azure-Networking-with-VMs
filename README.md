@@ -24,6 +24,8 @@ In this home lab, I observed different networking activities and traffic using m
 1. Create a Resource Group.
 2. Create a Windows 10 Virtual Machine (VM).
 3. While creating the VM, select the previously created Resource Group:  
+
+![image](https://github.com/user-attachments/assets/408e9ccb-623c-4b7f-9bf3-0a4b57164720)
  
    
 4. Allow the creation of a new Virtual Network (Vnet) and Subnet:  
