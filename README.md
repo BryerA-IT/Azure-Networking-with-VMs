@@ -3,7 +3,7 @@
 </p>
 
 <h1>Network Security Groups (NSGs) and Inspecting Traffic Between Azure Virtual Machines</h1>
-In this home lab, I observed different networking activities and traffic using multiple ports such as ICMP, SSH, RDP, and DNS through the use of Wireshark and PowerShell on Windows and Linux VMs.<br />
+In this home lab experiment, I analyzed network traffic patterns across multiple protocols including ICMP, SSH, RDP, and DNS. Using Wireshark for packet capture and PowerShell for automation, I observed network behaviors between Windows and Linux virtual machines..<br />
 
 <h2>Environments and Technologies Used</h2>
 
