@@ -30,15 +30,20 @@ In this home lab, I observed different networking activities and traffic using m
    
 4. Allow the creation of a new Virtual Network (Vnet) and Subnet:  
 
-![image](https://github.com/user-attachments/assets/36105b5c-acfe-45fb-8a89-d2c29bce67c6)
+![image](https://github.com/user-attachments/assets/bb67a3a3-49c4-4607-82b0-88c8873fbf23)
+
   
-  
-5. Create a Linux (Ubuntu) VM:  
-  
+5. Create a Linux (Ubuntu) VM:
+
+![image](https://github.com/user-attachments/assets/b4881d6e-98ba-4207-8107-d6cd46166c17)
+
   
 6. While creating the VM, select the previously created Resource Group and Vnet:  
  
-   
+![image](https://github.com/user-attachments/assets/3751d075-3f68-48d4-a14c-51038ba0228c)
+
+![image](https://github.com/user-attachments/assets/368338ec-7942-45e1-bfc4-23fdf555416e)
+
    
 7. Observe your Virtual Network within Network Watcher.
 
