@@ -29,6 +29,8 @@ In this home lab, I observed different networking activities and traffic using m
  
    
 4. Allow the creation of a new Virtual Network (Vnet) and Subnet:  
+
+![image](https://github.com/user-attachments/assets/36105b5c-acfe-45fb-8a89-d2c29bce67c6)
   
   
 5. Create a Linux (Ubuntu) VM:  
