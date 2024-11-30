@@ -105,10 +105,12 @@ In this home lab, I observed different networking activities and traffic using m
 <h3>Part 6: Observe RDP Traffic</h3>
 1. In Wireshark, filter for RDP traffic only (`tcp.port == 3389`).
 2. Observe the immediate non-stop traffic. Why is it non-stop versus only showing traffic when an activity occurs?
+
+![image](https://github.com/user-attachments/assets/1caacf25-bad0-4e0c-b2dc-08ce01b14416)
    
    RDP traffic is constant because it streams the live display of one computer to another. Unlike SSH, where traffic is generated only when keystrokes are sent, RDP transmits a constant stream of data for the remote session.  
 
    
 
 <h2>Takeaways and Key Skills Developed</h2>
-In this lab, I explored network security and traffic monitoring between Azure VMs using various protocols and tools such as Wireshark and PowerShell. I created both Windows and Ubuntu VMs, observing traffic for ICMP, SSH, DNS, RDP, and DHCP. By filtering traffic in Wireshark, I was able to understand how different protocols behave, such as viewing ICMP traffic during ping tests, SSH traffic during remote connections, and RDP traffic for remote desktop sessions. I also configured Network Security Groups (NSGs) to control traffic, such as blocking ICMP and monitoring its impact in real-time. This lab enhanced my understanding of network security practices, traffic analysis, and the configuration of security measures in a cloud environment.
+In this lab, I explored network security and traffic monitoring between Azure VMs using Wireshark and PowerShell. I set up both Windows and Ubuntu VMs to observe ICMP, SSH, DNS, RDP, and DHCP traffic. Through Wireshark's filtering capabilities, I learned how different protocols behave—watching ICMP during ping tests, SSH during remote connections, and RDP during remote desktop sessions. I also worked with Network Security Groups (NSGs) to control traffic flow, including blocking ICMP and monitoring its effects in real time. This hands-on experience deepened my understanding of network security practices, traffic analysis, and cloud security configuration.
